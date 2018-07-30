@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <style type="text/css">
+        body,html{
+            margin: 0 0 0 100px;
+            padding: 0;
+            height: 100%;
+        }
+        #left{
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100px;
+            height:130%;
+            border: red 1px solid;
+            background-color: #1D2531;
+            float: left;
+        }
+        .left-picture1{
+            height: 60px;
+            margin: 10px 0 0 8px;
+            border: red 1px solid;
+        }
+        .background-img1{
+            position: absolute;
+            margin-left: 10px;
+        }
+        .picture1{
+            position:absolute;
+            margin-left: 28px;
+            margin-top:18px;
+        }
+        .left-picture2 {
+            border: red 1px solid;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 8px;
+            height: 60px;
+        }
+        .background-img2{
+            margin-left: 10px;
+            position: absolute;
+        }
+        .picture2{
+            position:absolute;
+            margin-left: 28px;
+            margin-top:12px;
+        }
+        .left-picture3 {
+            border: red 1px solid;
+            position: relative;
+            height: 60px;
+            margin-top: 20px;
+            margin-left: 8px;
+        }
+        .background-img3{
+            margin-left: 10px;
+            position: absolute;
+        }
+        .picture3{
+            position:absolute;
+            margin-left: 24px;
+            margin-top:18px;
+        }
+        .left-picture4{
+            border: red 1px solid;
+            position: relative;
+            height: 60px;
+            margin-top: 20px;
+            margin-left: 8px;
+        }
+        .background-img4{
+            margin-left: 10px;
+            position: absolute;
+        }
+        .picture4{
+            position:absolute;
+            margin-left: 30px;
+            margin-top:20px;
+        }
+        .left-picture5{
+            border: red 1px solid;
+            float: left;
+            margin-left:10px ;
+            margin-top: 580px;
+            position:absolute;
+        }
+        .left-picture6{
+            border: red 1px solid;
+            margin-left: 70px;
+            position:absolute;
+            margin-top:580px;
+        }
+        #center {
+            width: 250px;
+            float: left;
+            margin: 0;
+            font-size: 12px;
+            background-color: #222C3C;
+            color: #99A1AE;
+            height: 130%;
+        }
+        #center .one{
+            margin: 10px 0 0 20px;
+            border: red 1px solid;
+        }
+        .menu .title1 p{
+              float: left;
+          }
+        .menu .title1 img{
+            overflow: auto;
+            margin-top: 12px;
+            margin-left: 170px;
+        }
+        #center .centent-one p:first-child{
+            margin-top: 15px;
+        }
+        #center .two{
+            margin: 20px 0 0 20px;
+            border: red 1px solid;
+        }
+        .products .title2 p{
+            margin: 20px 0 0 0;
+            float: left;
+            border: red 1px solid;
+        }
+        .products .title2 img{
+            overflow: auto;
+            margin-top: 20px;
+            margin-left: 100px;
+            border: red 1px solid;
+        }
+        .line{
+            border: #444444 1px solid;
+            width: 229px;
+            text-align: center;
+            margin: 20px 0 0 20px;
+        }
+        .centent-two{
+           margin-top: 10px;
+            border: red 1px solid;
+            height: 150px;
+        }
+        .pic-word1 img{
+               margin: 0 10px 10px 0;
+               border: red 1px solid;
+               float: left;
+           }
+        .pic-word1 p {
+            margin: 15px 0 0 30px;
+            border: red 1px solid;
+        }
+        .pic-word2 img{
+            margin: 2px 10px 10px 0;
+            border: red 1px solid;
+            float: left;
+        }
+        .pic-word2 p {
+            margin: 15px 0 0 30px;
+            border: red 1px solid;
+        }
+        .pic-word3 img{
+            margin: 0 10px 10px 0;
+            border: red 1px solid;
+            float: left;
+        }
+        .pic-word3 p {
+            margin: 15px 0 0 30px;
+            border: red 1px solid;
+        }
+        .pic-word4 img{
+            margin: 0 10px 10px 0;
+            border: red 1px solid;
+            float: left;
+        }
+        .pic-word4 p {
+            margin: 15px 0 0 30px;
+            border: red 1px solid;
+        }
+        #center .three{
+            margin: 10px 0 0 20px;
+            border: red 1px solid;
+        }
+        .dashboard .title3 p{
+            float: left;
+        }
+        .dashboard .title3 img{
+            margin-top:20px;
+            margin-left: 130px;
+        }
+        #center .centent-three p:first-child{
+            margin-top: 15px;
+        }
+        .four .pic-word1 p{
+            margin: 220px 0 10px 20px;
+        }
+        .four .picture1{
+            margin: 0 0 0 20px;
+            float: left;
+        }
+        .four .picture2{
+            float: left;
+            margin: 0 0 0 20px;
+            width: 180px;
+        }
+
+    </style>
+</head>
+<body>
+ <div id="left">
+    <div class="left-picture1">
+        <div class="background-img1">
+        <img src="image/Base1.png">
+        </div>
+        <div class="picture1">
+        <img src="image/Item-1.png">
+        </div>
+    </div>
+    <div class="left-picture2">
+        <div class="background-img2">
+            <img src="image/Base2.png">
+        </div>
+        <div class="picture2">
+            <img src="image/Item-2.png">
+        </div>
+    </div>
+    <div class="left-picture3">
+        <div class="background-img3">
+            <img src="image/Base3.png">
+        </div>
+        <div class="picture3">
+            <img src="image/Item-3.png">
+        </div>
+    </div>
+    <div class="left-picture4">
+        <div class="background-img4">
+            <img src="image/Base4.png">
+        </div>
+        <div class="picture4">
+            <img src="image/Plus-Icon.png">
+        </div>
+    </div>
+
+    <div class="left-picture5">
+        <img src="image/Grid.png">
+    </div>
+    <div class="left-picture6">
+        <img src="image/Settings.png">
+    </div>
+ </div>
+ <div id="center">
+     <div class="one">
+         <div class="menu">
+             <div class="title1">
+             <p>MENU</p>
+             <img src="image/Settings.png">
+             </div>
+             <div class="centent-one">
+                 <p>Overview</p>
+                 <p>Sales</p>
+                 <p>Your Staff</p>
+                 <p>Analytics & Targeting</p>
+                 <p>What's New</p>
+             </div>
+         </div>
+     </div>
+     <p class="line"></p>
+     <div class="two">
+         <div class="products">
+             <div class="title2">
+                 <p>YOUR PRODUCTS</p>
+                 <img src="image/Settings.png">
+             </div>
+             <div class="centent-two">
+                 <div class="pic-word1">
+                     <img src="image/Book-of-Wisdom.png">
+                     <p>Books</p>
+                 </div>
+                 <div class="pic-word2">
+                     <img src="image/Video-Camera.png">
+                     <p>Tutorials</p>
+                 </div>
+                 <div class="pic-word3">
+                     <img src="image/Painting.png">
+                     <p>Stocks</p>
+                 </div>
+                 <div class="pic-word4">
+                     <img src="image/Chart.png">
+                     <p>Inforgraphics</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <p class="line"></p>
+     <div class="three">
+         <div class="dashboard">
+             <div class="title3">
+                 <p>DASHBORAD</p>
+                 <img src="image/Settings.png">
+             </div>
+             <div class="centent-three">
+                 <p>Message</p>
+                 <p>Connections</p>
+                 <p>Integrations</p>
+                 <p>Account Settings</p>
+                 <p>App Settings</p>
+             </div>
+         </div>
+     </div>
+     <div class="four">
+         <div class="pic-word1">
+             <p>Momthly Goals&nbsp&nbsp$580/$3200</p>
+             <img class="picture1" src="image/Fill.png">
+             <img class="picture2" src="image/Base5.png">
+         </div>
+     </div>
+ </div>
+</body>
+</html>
